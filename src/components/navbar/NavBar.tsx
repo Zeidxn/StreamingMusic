@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 function NavBar() {
   return (
       <div className={"navbar"}>
-          <TextField id="standard-basic" className={"searchbar"} />
+          <TextField id="standard-basic" className={"searchbar"} label={"Artiste, Titre"} />
           <div className={"navbar__container"}>
               <img id="logo" src={"/src/assets/Z.png"} alt={"logo"}/>
               <div className={"navbar__item"}>ZEIDEN</div>

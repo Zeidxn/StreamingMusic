@@ -1,6 +1,8 @@
 import './App.css'
-import Navbar from './components/NavBar/NavBar'
-import SideBar from "./components/SideBar/SideBar";
+import Navbar from './components/navbar/NavBar'
+import SideBar from "./components/sidebar/SideBar";
+import HomeView from "./components/homeview/HomeView";
+import MusicBar from "./components/musicbar/MusicBar";
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
         <div className={"navigation"}>
           <SideBar />
           <Navbar />
+          <HomeView />
+          <MusicBar />
         </div>
     </div>
   )
