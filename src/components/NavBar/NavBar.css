@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    padding: 1.5em 2em;
+    background-color: #8b0000;
+    width: calc(100vw - 315px);
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30%;
+}
+
+.navbar__item {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Gotham Black", sans-serif;
+    align-items: center;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.searchbar .MuiOutlinedInput-root {
+    background-color: rgb(14, 14, 21);
+    border-radius: 4px;
+    color: white;
+}
+
+
+#logo {
+    width: auto;
+    height: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: calc(100vw - 145px);
+        left: 80px;
+    }
+}
